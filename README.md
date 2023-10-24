@@ -1,21 +1,38 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment 0 Sample Assignment
+
 
 Objectives:
-Demonstration of how to run programs through the autograder.
+* Make a function call to execute a function
+* Create your own function
 
-1. First thing you do is follow the link to create your repository
-2. Read the "readme.md" file (title page).  It will have a lot of the information you need to complete the assignment
-3. When you accept the assignment through the Github Classroom, it will create a project repository for you.  You can use Github Desktop to clone those files to your own computer.
-4. Make any edits or create the code necessary to complete the assignment.
-5. Once your program works, you can commit your changes, and then push them back to the server with Github Desktop
-6. Once the commit is received, it will automatically be run your programs through the autograder.  If all the commits pass, you will receive full marks for the assignment.
+Programs can get very long and complicated.  Often, we try to break a program into smaller tasks.  In fact, we can often think of having a program within a program.  These may have their own variables, and have limited data that they receive or send to other parts of the main program.
 
-### No Tasks
-Normally, the number of tasks you need to accomplish will be displayed here
+Today, we will explore how a function is defined and how we execute or "call" the function.
 
-##### Task 1
-Each task will be displayed here along with the number of points.
-Openp up the file called assignment.py.  Have the program print the words "hello world"
-(2 points)
+Look at example 1 to see how a function is defined:
+Note the indenting. 
+Note the inclusion of the round brackets in the function defintion.
+Note that defining the function does not actually execute the function.
 
+In example 2, we actually make use of the function by doing a function call in the main part of our program.
+
+In example 3 we start to refine our program structure by defining a main of code.
+While not strictly necessary for our purposes, now is a good time to start getting  into the habit.
+
+Task 1:
+Create a program with 3 function definitions:
+function A prints the message "Hello"
+function B prints the message "How are you"
+function C prints the message "Hi"
+
+Ask the user to enter a letter from A to C
+Execute the function of the letter they use.
+
+Task 2:
+Create a program to play a number guessing game
+There should be a function:
+title()
+displays instructions and how to play
+
+game()
+plays the game
