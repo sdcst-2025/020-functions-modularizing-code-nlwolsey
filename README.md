@@ -14,6 +14,20 @@ Note the indenting.
 Note the inclusion of the round brackets in the function defintion.
 Note that defining the function does not actually execute the function.
 
+We have looked at quite a lot of commands and structures this year.  In addition to all of the math and logical operators as well as the code structures that control program flow, we have also looked at commands that do a specific task.
+
+Consider the following:
+
+pow(x,y) : which finds out the exponent of x to the power of y
+math.floor(x) : which takes the float value of x and rounds it down to an int
+int(x) : which takes a float value of x and converts it to an integer
+
+These are examples of functions.  They are mini programs that can be created to do a specific tasks.  Defining function has a number of things in common:
+
+* the keyword **def** is used to indicate that a function is being defined.
+* There is a function name, that is used when you want to execute or "call" the function.
+* Parameters are the things that are located inside the brackets.   These are important inputs that are needed to run the function or mini program.  The parameters are variables that can be used within the function
+
 In example 2, we actually make use of the function by doing a function call in the main part of our program.
 
 In example 3 we start to refine our program structure by defining a main of code.
